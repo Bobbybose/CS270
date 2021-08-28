@@ -1,0 +1,23 @@
+CS 270 Project 4: TINY Web Server and Calculator
+Author: Bobby Bose
+NOTE: csapp.h, csapp.c, and tiny.c were used for this project and were taken from http://csapp.cs.cmu.edu/3e/code.html
+      adder.c from same site was used as starting point for calc.c
+
+Limitations: Program will default to multiplication if client user tries to do an operation that isn't add, subtract, or multiply.
+
+Instructions on compiling: Type "make" or "make all" to compile both tiny and calc
+                           Type "make tiny" or "make calc" to only compile tiny or calc respectively
+                           Can type "make clean" to remove tiny and calc executables
+                           Can type "make tar" to create a tarbell of everything in working_dir
+
+Program runs with 1 argument: the port. Port 8000 was used during creation of project and testing should be done using that port aswell
+      Example run command: "./tiny 8000"
+
+URL for TINY Web Server homepage is http://login_id.cs.uky.edu:8000
+URL for Calculator is: http://login_id.cs.uky.edu:8000/p4calculator.html
+      Can also use http://login_id.cs.uky.edu:8000/cgi-bin/calc?op=add&operand1=2&operand2=2
+            Can change add to subtract or multiply
+            Can change numbers after operand= statements to change the operands for the operation
+
+TINY Web Server homepage just displays an image and small text underneath
+Calculator page can be used to calculate simple add/subtract/multiply operations

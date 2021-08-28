@@ -1,0 +1,12 @@
+cd ../Project2
+ls
+cd ../Project3
+ls
+/bin/cat text.txt
+ls -lt
+sleep 4 &
+plist
+sleep 4 &
+plist
+sleep 5
+plist
